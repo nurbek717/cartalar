@@ -1,0 +1,161 @@
+
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family:monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 215, 95);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bag{
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.rght{
+    width: 400px;
+    height: 650px;
+    overflow: auto;
+    background-color: rgb(226, 221, 221);
+}
+.plus{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.button{
+    width: 50px;
+    height: 25px;
+    /* margin-right: 45px; */
+    border: none;
+    background-color: rgb(226, 221, 221);
+}  
+
+
+.item{
+    list-style: none;
+    padding: 0px;
+}
+.list{
+    width: 300px;
+    height: 200px;
+    background-color:#ffffff;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+    
+}
+.list:hover{
+    cursor: pointer;
+    border: 3px solid rgb(13, 34, 224);
+}
+
+
+
+.left{
+    width: 800px; 
+    height: 650px;
+    overflow: auto;
+    background-color: white;
+    
+    
+}
+.left__text{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left__heading{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.list-rghat{
+    display: flex;
+    align-items: center;
+}
+.list-rghat__text{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.paragrif{
+    color: rgb(88, 88, 88);
+    opacity: 0.5;
+    margin-top: 0%;
+    font-size: 20px;
+}
+.left__item{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0%;
+}
+.apple-strong{
+    font-size: 25px;
+}
+.apple-strong:hover{
+    color: rgb(64, 64, 233);
+    opacity: 0.5;
+    cursor: pointer;
+}
+.paragrif{
+    
+}
+.buttom-menus{
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.many{
+    color: blue;
+    font-size: 30px;
+}
+.many2{
+    color: chartreuse;
+    font-size: 30px;
+}
+
+.many1{
+    color: black;
+    font-size: 30px;
+    
+}
+
